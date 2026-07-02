@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "My OneApp",
-    "slug": "my-oneapp",
+    "slug": "myoneapp",
     "extra": {
       "eas": {
         "projectId": "cba7bc75-a7aa-47b4-8840-c88fdadc8707"
