@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "My OneApp",
+    "slug": "my-oneapp",
+    "extra": {
+      "eas": {
+        "projectId": "cba7bc75-a7aa-47b4-8840-c88fdadc8707"
+      }
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00a651"
+    },
+    "android": {
+      "package": "com.myoneapp.app",
+      "permissions": [
+        "READ_CONTACTS",
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-local-authentication",
+      "expo-contacts",
+      [
+        "expo-notifications",
+        {
+          "sounds": []
+        }
+      ]
+    ]
+  }
+}
